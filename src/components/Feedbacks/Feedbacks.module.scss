@@ -1,0 +1,58 @@
+form.addFeedbacksFrom {
+    > * {
+        margin: 15px 0px;
+    }
+
+    > div > input {
+        width: 100%;
+    }
+}
+
+h2 {
+    text-align: center;
+    font-size: 44px;
+}
+
+div.boxFeedbacks {
+    width: 250px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+}
+
+button {
+    background-color: hotpink;
+    border-radius: 10px;
+    border: 1px solid pink;
+    padding: 6px;
+    margin: 5px;
+
+}
+
+#clickButton {
+    background-color: red;
+}
+
+button:active {
+background-color: rgb(199, 23, 111);
+}
+  
+input:required:invalid {
+    border: red solid 2px;
+    border-radius: 5px;
+}
+
+.wrapper {
+
+    &.light {
+    color: black;
+    background: white;
+    }
+
+    &.dark {
+        color: white;
+        background: rgb(51, 49, 49);
+    }
+}

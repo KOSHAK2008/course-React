@@ -1,0 +1,30 @@
+GET https://myfreedom-react-project-anton-default-rtdb.firebaseio.com/todos.json HTTP/1.1
+
+###
+
+POST https://myfreedom-react-project-anton-default-rtdb.firebaseio.com/todos.json HTTP/1.1
+content-type: application/json
+
+{
+   "userId": 11,
+  "id": 202,
+  "title": "Post working",
+  "completed": false
+}
+
+###
+
+PATCH  https://myfreedom-react-project-anton-default-rtdb.firebaseio.com/todos/5.json HTTP/1.1
+content-type: application/json
+
+{
+   "userId": 11,
+  "id": 202,
+  "title": "Patch working",
+  "completed": true
+}
+
+###
+
+DELETE https://myfreedom-react-project-anton-default-rtdb.firebaseio.com/todos/2.json HTTP/1.1
+content-type: application/json

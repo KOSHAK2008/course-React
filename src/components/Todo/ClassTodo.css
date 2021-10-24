@@ -1,0 +1,15 @@
+.activTodo{
+ display:flex;
+ font-size: large;  
+ justify-content: center; 
+ align-items: center;
+}
+
+h1{
+    color: blue;
+    padding: 25px;
+}
+
+h4, h5{
+    padding: 10px
+}

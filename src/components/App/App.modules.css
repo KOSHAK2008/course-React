@@ -1,0 +1,28 @@
+.classTwo {
+    color:blue;
+}
+
+a{
+    padding: 0px 20px;
+}
+
+.light {
+    color: black;
+    background: white;
+}
+
+.dark {
+    color: white;
+    background: rgb(51, 49, 49);
+}
+
+.topUl {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    flex-direction: row-reverse;
+    }
+    
+li{
+    display: flex;
+}
